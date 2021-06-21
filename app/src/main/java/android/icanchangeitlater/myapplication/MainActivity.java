@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         textv1.setTextColor(getResources().getColor(R.color.black));
         textv1.setTextSize(40);
 
-
+zdkfjl;sfjk;fjgjdf;gkl;mgkl;
 
     }
 }
