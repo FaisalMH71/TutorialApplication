@@ -3,9 +3,6 @@ package android.icanchangeitlater.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+<<<<<<< HEAD
 
     public void showText(View view){
         Button btn1 = findViewById(R.id.btn1);
@@ -28,4 +26,6 @@ public class MainActivity extends AppCompatActivity {
 zdkfjl;sfjk;fjgjdf;gkl;mgkl;
 
     }
+=======
+>>>>>>> parent of 9eb5dad (when you click the button it will give you a response and changes it's text to -You've clicked me!- and shows you the TextView -Get Outa Here Bitch!!- with a bigger text!)
 }
