@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
     public void showText(View view){
         Button btn1 = findViewById(R.id.btn1);
         btn1.setClickable(false);
@@ -23,9 +22,5 @@ public class MainActivity extends AppCompatActivity {
         TextView textv1 = findViewById(R.id.textv1);
         textv1.setText("Get Outa Here Bitch!!");
         textv1.setTextColor(getResources().getColor(R.color.black));
-        textv1.setTextSize(40);
-
-
-
-    }
+        textv1.setTextSize(40);}
 }
